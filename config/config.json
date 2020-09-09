@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "term-of-use-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/termOfUseWp/TermOfUseWpWebPart.js",
+          "manifest": "./src/webparts/termOfUseWp/TermOfUseWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TermOfUseWpWebPartStrings": "lib/webparts/termOfUseWp/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "terms-of-use-client-side-solution",
+    "id": "1472efc3-6b1f-4c63-9a0e-f9121854fea6",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/terms-of-use.sppkg"
+  }
+}
